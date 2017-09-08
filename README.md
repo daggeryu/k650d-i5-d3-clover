@@ -5,4 +5,5 @@
     其他更高版本也可以，10.12键盘大小写调节需要
     按两下，也没有别的问题了。
 ![170831-4](http://ovybw0e8z.bkt.clouddn.com/99331D31-B3E9-4714-A237-9582E7E6D9FC.png)
+![170831-4](http://ovybw0e8z.bkt.clouddn.com/shezhi.png)
 
