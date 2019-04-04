@@ -1,0 +1,126 @@
+4:520  0:282  Found BIOS RSDP at F0000
+4:520  0:000  Printing ACPI tables from RSDP F0000 ...
+4:520  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:520  0:000    (Xsdt: C973C088, Rsdt: C973C028)
+4:520  0:000    C973C088: 'XSDT', 'A M I', Rev: 1, Len: 148
+4:520  0:000    C973C028: 'RSDT', 'A M I', Rev: 1, Len: 92
+4:520  0:000    Tables in Xsdt: 14
+4:520  0:000    0. C974E018: 'FACP', 'A M I', Rev: 5, Len: 268
+4:520  0:000        (Dsdt: C973C1B8, Facs: C97AAF80, XDsdt: C973C1B8, XFacs: 0)
+4:520  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:521  0:001        C97AAF80: 'FACS', Ver: 2, Len: 64
+4:521  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:521  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:521  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:521  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:521  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:521  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:521  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:521  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:521  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:521  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:521  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:521  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:521  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:521  0:000    Tables in Rsdt: 14
+4:521  0:000    0. C973C130: 'FACP', 'A M I', Rev: 2, Len: 132
+4:521  0:000        (Dsdt: C973C1B8, Facs: C97AAF40)
+4:521  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:523  0:001        C97AAF40: 'FACS', Ver: 0, Len: 64
+4:523  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:523  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:523  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:523  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:523  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:523  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:523  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:523  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:523  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:523  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:523  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:523  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:523  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:523  0:000  Found UEFI Acpi 2.0 RSDP at C973C000
+4:523  0:000  Saving ACPI tables from RSDP C973C000 to EFI\CLOVER\ACPI\origin ...
+4:523  0:000   C973C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:523  0:000    (Xsdt: C973C088, Rsdt: C973C028)
+4:523  0:000    C973C088: 'XSDT', 'A M I', Rev: 1, Len: 148
+4:523  0:000    C973C028: 'RSDT', 'A M I', Rev: 1, Len: 92
+4:523  0:000    Tables in Xsdt: 14
+4:523  0:000    0. C974E018: 'FACP', 'A M I', Rev: 5, Len: 268
+4:523  0:000        (Dsdt: C973C1B8, Facs: C97AAF80, XDsdt: C973C1B8, XFacs: 0)
+4:523  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:524  0:001        C97AAF80: 'FACS', Ver: 2, Len: 64
+4:524  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:524  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:524  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:524  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:524  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:524  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:524  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:524  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:524  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:524  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:524  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:524  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:524  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:524  0:000    Tables in Rsdt: 14
+4:524  0:000    0. C973C130: 'FACP', 'A M I', Rev: 2, Len: 132
+4:524  0:000        (Dsdt: C973C1B8, Facs: C97AAF40)
+4:524  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:525  0:001        C97AAF40: 'FACS', Ver: 0, Len: 64
+4:525  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:525  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:525  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:525  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:525  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:525  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:525  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:525  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:525  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:525  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:525  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:525  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:525  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:525  0:000  Found UEFI Acpi 1.0 RSDP at C973C000
+4:525  0:000  Printing ACPI tables from RSDP C973C000 ...
+4:525  0:000   C973C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:525  0:000    (Xsdt: C973C088, Rsdt: C973C028)
+4:525  0:000    C973C088: 'XSDT', 'A M I', Rev: 1, Len: 148
+4:525  0:000    C973C028: 'RSDT', 'A M I', Rev: 1, Len: 92
+4:525  0:000    Tables in Xsdt: 14
+4:525  0:000    0. C974E018: 'FACP', 'A M I', Rev: 5, Len: 268
+4:525  0:000        (Dsdt: C973C1B8, Facs: C97AAF80, XDsdt: C973C1B8, XFacs: 0)
+4:525  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:527  0:001        C97AAF80: 'FACS', Ver: 2, Len: 64
+4:527  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:527  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:527  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:527  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:527  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:527  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:527  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:527  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:527  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:527  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:527  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:527  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:527  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
+4:527  0:000    Tables in Rsdt: 14
+4:527  0:000    0. C973C130: 'FACP', 'A M I', Rev: 2, Len: 132
+4:527  0:000        (Dsdt: C973C1B8, Facs: C97AAF40)
+4:527  0:000        C973C1B8: 'DSDT', 'A M I', Rev: 2, Len: 73309
+4:528  0:001        C97AAF40: 'FACS', Ver: 0, Len: 64
+4:528  0:000    1. C974E128: 'APIC', 'A M I', Rev: 3, Len: 114
+4:528  0:000    2. C974E1A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:528  0:000    3. C974E1E8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:528  0:000    4. C974E290: 'SSDT', 'PtidDevc', Rev: 1, Len: 3986
+4:528  0:000    5. C974F228: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:528  0:000    6. C974F768: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:528  0:000    7. C9750240: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:528  0:000    8. C9750280: 'HPET', 'A M I', Rev: 1, Len: 56
+4:528  0:000    9. C97502B8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:528  0:000    10. C97505D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 7239
+4:528  0:000    11. C9752218: 'SSDT', 'SgPeg', Rev: 1, Len: 4325
+4:528  0:000    12. C9753300: 'SSDT', 'OptTabl', Rev: 1, Len: 7478
+4:528  0:000    13. C9755038: 'BGRT', 'A M I', Rev: 0, Len: 56
