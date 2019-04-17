@@ -12,8 +12,8 @@
 **亮度**：以前使用dsdt打补丁驱动亮度，在升级后存在打开csm和720p分辨率时开机亮度很暗，需要重新切换分辨率才会正常，，如果关闭csm能够解决，但是开机会有八个苹果，现在通过whatevergreen自带的驱动亮度方法，解决了这些问题，但是出现新问题，驱动显卡前不出logo，打开-v也不跑码。如果使用最大分辨率的建议只勾选ddpnlf，取消Devices下的SetintelBackight和SetintelmaxBackight。应该就会正常出现logo。（个人没试）  
 **变频**：应该正常，生成了变频的ssdt文件，以前是9档变频，可通过cpufriend修改为六档，但是最近没去关注这些，因为在使用中温度正常。不插电能使用两个小时，电脑买了3年了，平时一直插电源使用，晚上宿舍断电后才使用电池。  
 **HDMI**：hdmi正常，hdmi音频可以有输出但是音乐卡卡的，所以一直没使用。  
-**USB**：这个电脑一共四个usb口，官网查到两个2.0，两个3.0，但是我在使用中发现好像是3个3.0，已经通过dsdt进行端口定制，抛弃usb驱动。  
+**USB**：USB一切正常。  
 **DSDT**：这次分享的efi是从新修改过dsdt，以前小白的时候修改的dsdt，什么都不知道打了太多无用的补丁，现在的dsdt只做了usb端口定制，舍弃usbinjectall。和解决屏蔽独显和勾选addpnlf驱动亮度后，开机风扇狂转不停，高温报警的问题。（本人喜欢简洁所以没用hotpatched，只在一个dsdt上做修改）  
-**开机鼠标卡顿的问题**：通过屏蔽hdmi，105端口解决开机卡顿问题,详见config。  
+**开机鼠标卡顿的问题**：通过屏蔽hdmi，105端口解决开机卡顿问题,详见config（仅适用于10.13.6）。  
 **本引导在10.13.6基础上修改，如果使用最新版14.3应该也没啥问题，如果有问题在讨论。
 如果没换网卡，或者换了别的网卡的请删除EFI/clover/kexts/other下的：FakePCIID_Broadcom_WiFi.kext，AirportBrcmFixup.kext，BrcmFirmwareData.kext，BrcmPatchRAM2.kext这四个驱动。**  
