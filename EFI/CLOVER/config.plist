@@ -25,37 +25,6 @@
 				<key>FixRegions</key>
 				<false/>
 			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC1 to EH01</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC2 to EH02</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -111,7 +80,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>SetIntelBacklight</key>
 		<true/>
@@ -171,6 +140,8 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<true/>
 			<key>Tool</key>
 			<false/>
 		</dict>
@@ -292,17 +263,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/11/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0146.B00.1804111138</string>
+		<string>MBP111.88Z.F000.B00.1812191214</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02310200J9FH31AD</string>
+		<string>C17423403GUFH31A8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -314,7 +285,7 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>149.0.0.0.0</string>
+		<string>150.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -332,9 +303,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02KDCZHFH00</string>
+		<string>C17MTWZBFH00</string>
 		<key>SmUUID</key>
-		<string>6F48CAE4-FAFC-45CA-8785-6B4D089AEB3A</string>
+		<string>D1315A76-5357-4DDF-A169-3DE06CD589DE</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
