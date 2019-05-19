@@ -28,7 +28,7 @@
 如果没换网卡，或者换了别的网卡的请删除EFI/clover/kexts/other下的：FakePCIID_Broadcom_WiFi.kext，AirportBrcmFixup.kext，BrcmFirmwareData.kext，BrcmPatchRAM2.kext这四个驱动。**  
 
 ## 更新日志
-2019年5月19日
+2019年5月19日  
 1：重新仿冒声卡，去掉无用输入。  
 2：更新clover，支持10.14.5.
 
